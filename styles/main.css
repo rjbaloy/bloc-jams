@@ -37,7 +37,7 @@ html {
      right: 0;
      height: 100px;
      color: white;
- }
+}
 
  .links-container .navbar-link {
      display: table-cell;
@@ -60,6 +60,9 @@ html {
    /* #5 */
  .links-container .navbar-link:hover {
      color: rgb(233,50,117);
+  }
+ .links-container .navbar-link:active { /* assignment5 */
+     background-color: white; /* active state */
  }
 
   .ion-music-note,
